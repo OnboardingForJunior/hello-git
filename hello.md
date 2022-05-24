@@ -69,12 +69,15 @@ github에서 이미 관리되고 있는 파일에는 적용 안됨!</br>
 
 ## push
 
-원격 저장소에 변경분을 업로드하기 위해 사용하는 명령어!
+원격 저장소에 변경분을 업로드하기 위해 사용하는 명령어! </br>
+git status에 나오는데, git add (파일이름)으로 수정/새로운파일을 스테이징 후 git commit -m "커밋 메세지" 한다.</br>
+커밋 준비가 끝나면 최종 단계로 git push origin main을 통해 push해준다.
 
 ## pull
 
-원격 저장소의 정보를 가져오고 로컬 브랜치에 병합을 수행해주는 명령어
-
+원격 저장소의 정보를 가져오고 로컬 브랜치에 병합을 수행해주는 명령어 </br>
+git fetch origin을 통해 파일을 업데이트 후 git diff HEAD origin/main 으로 변경사항 확인 </br>
+git pull origin main을 통해 로컬 파일에 merge 해준다.
 ## 브랜치
 
 직역하면 나뭇가지 사방으로 뻗은... 저장소의 구조를 뜻함
